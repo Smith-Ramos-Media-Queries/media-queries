@@ -38,20 +38,32 @@ h1 {
 
 .header-img {
     display: flex;
-    /* I need to do some more research on how to change this pic
-    nothing seems to change it. I assume it is because it is a set width
-    and height.
-     */
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    @media screen and (min-width:576px) and (max-width:750px)
+
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .main {
+margin-bottom: 3em;
+
+
 
 }
 
 .sub-section {
     font-style: italic;
+    margin-bottom: 4em;
 }
 
+#social-media-links {
+
+
+}
 /*@media screen and (min-width:576px) {*/
 
 /*}*/
