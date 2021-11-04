@@ -40,8 +40,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    /*@media screen and (min-width:576px) and (max-width:750px)*/
-
 }
 
 img {
@@ -60,11 +58,7 @@ margin-bottom: 3em;
 
 footer {
     display: flex;
-}
-
-footer #social-media-links {
-
-
+    justify-content: space-between;
 }
 
 @media screen and (min-width:992px) {
@@ -104,15 +98,29 @@ h1 {
 img {
     width: 100%;
     height: auto;
+    margin-bottom: 2em;
 }
 
-
-.main .sub-section {
-    /*display: inline-block;*/
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    max-width: 55%;
+    position: absolute;
 }
 
 .sub-section {
-    /*margin-right: 20px;*/
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    max-width: 40%;
+    margin-left: auto;
 }
+
+footer {
+    display: flex;
+    margin-top: 20em;
+    margin-bottom: 10em;
+}
+
 }
